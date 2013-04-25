@@ -14,8 +14,8 @@ Checkout the following sections of the demo code to see how `ez_enum` is used.
 
 * [`app/enums/status.rb`](./app/enums/status.rb) - included EZEnum module to add goodness to the `Status` module
 * [`app/models/order.rb`](./app/models/order.rb) - `Status::All` can be used for validating the `status` attribute of the model
-* [`app/view/orders/_form.html.erb`](./app/view/orders/_form.html.erb) - `Status. ` provides the items needed to building a select input
-* [`app/view/orders/show.html.erb`](./app/view/orders/show.html.erb) - `Status.display_for(value)` provides the textual description of the status value
+* [`app/views/orders/_form.html.erb`](./app/views/orders/_form.html.erb) - `Status. ` provides the items needed to building a select input
+* [`app/views/orders/show.html.erb`](./app/views/orders/show.html.erb) - `Status.display_for(value)` provides the textual description of the status value
 * [`config/locales/en.yml`](./config/locales/en.yml) - contains translations for the `Status` enumerations members
 
 ## Contributing
